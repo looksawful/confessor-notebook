@@ -1,0 +1,28 @@
+profiles:
+  default:
+    appearance:
+      logo: 🕊️ Confessor Notebook 🕊️
+      theme: dark
+    en:
+      confession:
+      - How was your day?
+      - What did you achieve today?
+      - What challenges did you face today?
+      - '[?]'
+      meditation:
+      - How do you feel today?
+      - What are you grateful for today?
+      - What thoughts are on your mind?
+    ru:
+      confession:
+      - Как прошел твой день?
+      - Что ты успел сделать сегодня?
+      - С какими трудностями ты столкнулся сегодня?
+      meditation:
+      - Как ты себя чувствуешь сегодня?
+      - За что ты сегодня благодарен?
+      - О чем ты думаешь?
+    templates:
+      report: '[bold green]{title}[/bold green]
+
+        {content}'
